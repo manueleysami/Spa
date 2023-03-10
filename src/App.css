@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "nunito";
+  src: url("./assets/fonts/Nunito-Regular.ttf");
+}
+
+.nunito{
+    font-family: "nunito";
+}
+
+/* clases para las transiciones entre paginas */
+
+@keyframes entrar {
+  from {
+    opacity: 0;
+    transform: translate(-2000px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes salir {
+  from {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(-2000px, 0);
+    opacity: 0;
+  }
+}
+
+.entrar {
+  opacity: 0;
+  animation: 0.5s entrar forwards;
+}
+
+.salir {
+  animation: 0.5s salir forwards;
+}
