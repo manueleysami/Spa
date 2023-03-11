@@ -9,6 +9,7 @@ import Principal from "../principal";
 import Servicios from "../servicios";
 import Contacto from "../contacto";
 import AcercaDe from "../acercaDe";
+import Error404 from "../404/Error404";
 
 function Rutas() {
   /* elementos para manejar las transiciones de las paginas */
@@ -34,6 +35,7 @@ function Rutas() {
         <Route path="/servicios" element={ <Servicios /> } />
         <Route path="/contacto" element={  <Contacto /> } />
         <Route path="/acerca" element={<AcercaDe />} />
+        <Route path="*" element={<Error404 />} />
       </Routes>
     </div>
   );

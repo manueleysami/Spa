@@ -18,9 +18,6 @@ function AcercaDe() {
         <p className="fs-5">
           <span className="ps-5">La</span>, calidad del servicio al cliente es lo que nos distingue de la competencia y constituye un factor del éxito de nuestro negocio. La calidad de servicio se mide en todos los procesos de interacción con el cliente. Es la flexibilidad con la que desarrollamos nuestro negocio y nos adaptamos constantemente a las necesidades y deseos de nuestros clientes.
         </p>
-        <p className="fs-5">
-          <span className="ps-5">El</span> volumen de operaciones que generamos nos permite mantener una política de precios enfocada en el liderazgo en costos. Desarrollamos una estrategia de precios basada en el valor agregado que representa el servicio al cliente y el producto diferencial. La estrategia de la compañía refiere a la Misión, la Visión, los Valores Corporativos y las acciones específicas que se desarrollan para cumplir con los mismos.
-        </p>
       </div>
     </div>
   );
