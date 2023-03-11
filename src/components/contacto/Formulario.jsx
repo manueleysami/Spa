@@ -38,8 +38,8 @@ function Formulario() {
   };
 
   return (
-    <div className="d-flex align-items-center h-100">
-      <h3 className="text-danger tex-center mb-3">Contactanos si tienes alguna duda o una sugerencia para nosotros</h3>
+    <div className="d-flex flex-column align-items-center h-100">
+      <h3 className="text-danger text-center mb-3">Contactanos si tienes alguna duda o una sugerencia para nosotros</h3>
       <h5 className="mb-5">Queremos mejorar por y para usted.</h5>
       <form className="w-100" onSubmit={handleSubmit}>
         <div className="form-floating mb-3 pb-3">

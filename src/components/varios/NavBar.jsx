@@ -9,11 +9,11 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-transparent position-absolute w-100" style={{zIndex: 10}}>
       <div className="container-fluid">
-        <a className="navbar-brand text-danger" href="#">
+        <Link to="/" className="navbar-brand text-danger">
           <h1>
             <FontAwesomeIcon icon={faShieldDog} /> PuppyCare
           </h1>
-        </a>
+        </Link>
         <button
           className="navbar-toggler bg-light"
           type="button"
